@@ -194,18 +194,18 @@ void funcioncreative() {
 
 
 void funcionhowplay() {
-  fill(#1D8122);
-  stroke(#EBF011);
+  fill(200,200,200);
+  stroke(0);
   rect(width/2-350, height/2-250, width/2+50, height/2+40);
 
-  fill(#E3681B);
+  fill(76, 0, 153);
   rect(width/2+295, height/2-250, 55, 40, 20, 20, 20, 20);
   image(home, width/2+305, height/2-250, 37, 39);
   if ((mouseX > width/2+295) && (mouseX <width/2+335) && (mouseY > height/2-250) && (mouseY < height/2-210) && (mousePressed)) {
     howplay=false;
   }
   textSize(25);
-  fill(#EBF011);  
+  fill(0);  
   text("■ Move the figures", width/2-265, height/2-180);  
   text("■ Rotate the figures", width/2-265, height/2-80);
   text("■ Special rotate (only trapeze)", width/2-265, height/2+20);
